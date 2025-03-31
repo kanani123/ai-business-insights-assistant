@@ -86,7 +86,7 @@ def evaluate_response(self, query, response):
 
 if __name__ == "__main__":
     
-    API_KEY = "AIzaSyCfvLZKNoNx3HZ4zh8zQhTJgrlzoiVcPXM"  
+    API_KEY = "your_api_key_from_gemini"  
     
     assistant = BusinessInsightsAssistant(API_KEY)
     query = "How can we improve sales for Q4?"
